@@ -1,0 +1,51 @@
+.avatar {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+.blogItem-div {
+  padding: 20px;
+  width: 420px;
+}
+.blog-title {
+  text-align: center;
+  font-size: 20px;
+  font-family: Roboto;
+}
+.author-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.author-name {
+  color: #616e7c;
+  font-size: 17px;
+  font-family: Roboto;
+}
+.blog-image {
+  width: 100%;
+}
+.blog-content {
+  color: #2f4f4f;
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .blogItem-div {
+    padding: 20px;
+    width: 520px;
+  }
+  .blog-title {
+    text-align: center;
+    font-size: 26px;
+    font-family: Roboto;
+  }
+}
+@media screen and (min-width:992px){
+  .blogItem-div{
+    width: 650px;
+  }
+}
